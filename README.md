@@ -2,7 +2,7 @@
 
 ## 박트리의 B형 필수
 
-- [ ] Hashing
+- [x] Hashing
 - [ ] LinkedList
 - [ ] Tree
 - [ ] Memoization
@@ -23,5 +23,4 @@
 - [ ] Segment Tree
 - [ ] Sqrt Decompisition
 
----
 
