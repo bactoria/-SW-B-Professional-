@@ -7,7 +7,7 @@
 - [ ] Tree
 - [ ] Memoization
 - [x] Bit Masking
-- [ ] Binary Search
+- [x] Binary Search
 - [ ] Quick Sort
 - [ ] Heap
 - [ ] Queue
