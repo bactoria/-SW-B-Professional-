@@ -3,7 +3,7 @@
 ## 박트리의 B형 필수
 
 - [x] Hashing
-- [ ] LinkedList
+- [x] LinkedList
 - [ ] Tree
 - [ ] Memoization
 - [x] Bit Masking
