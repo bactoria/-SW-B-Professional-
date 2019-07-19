@@ -6,7 +6,7 @@
 - [ ] LinkedList
 - [ ] Tree
 - [ ] Memoization
-- [ ] Bit Masking
+- [x] Bit Masking
 - [ ] Binary Search
 - [ ] Quick Sort
 - [ ] Heap
