@@ -1,10 +1,5 @@
 package lib.bitMask;
 
-/**
- * @author Sooduck, Park
- * @since 2019-07-16 [2019.7월.16]
- */
-
 public class BitMask {
     public static void main(String[] args) {
         // 비트카운트
