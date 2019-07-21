@@ -8,7 +8,7 @@
 - [ ] Memoization
 - [x] Bit Masking
 - [x] Binary Search
-- [ ] Quick Sort
+- [x] Quick Sort
 - [ ] Heap
 - [ ] Queue
 - [ ] Stack
