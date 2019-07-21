@@ -9,7 +9,7 @@
 - [x] Bit Masking
 - [x] Binary Search
 - [x] Quick Sort
-- [ ] Heap
+- [x] Heap
 - [ ] Queue
 - [ ] Stack
 
