@@ -11,8 +11,8 @@ public class QuickSort {
             return;
         }
 
-        int pivotData = arr[start];
-        int pivot = start;
+        final int pivot = start;
+        final int pivotData = arr[pivot];
 
         int left = start + 1;
         int right = end;
@@ -24,16 +24,15 @@ public class QuickSort {
             swap(arr, left, right);
         }
 
-        if (pivotData < arr[left]) {
-            swap(arr, left - 1, pivot);
-            pivot = left - 1;
-        } else {
-            swap(arr, left, pivot);
-            pivot = left;
+        int nextPivot = left;
+        if (pivotData < arr[nextPivot]) {
+            nextPivot -= 1;
         }
-        sort(arr, start, pivot - 1);
-        sort(arr, pivot + 1, end);
 
+        swap(arr, pivot, nextPivot);
+
+        sort(arr, start, nextPivot - 1);
+        sort(arr, nextPivot + 1, end);
     }
 
     private static void swap(int[] arr, int idx1, int idx2) {
