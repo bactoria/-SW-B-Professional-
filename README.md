@@ -17,7 +17,7 @@
 
 ## 박트리의 알아두면 좋은 것들
 
-- [ ] Trie
+- [x] Trie
 - [ ] LCA(Lowest Common Ancestor)
 - [ ] BST(Binary Search Tree)
 - [ ] Segment Tree
