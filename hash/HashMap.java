@@ -103,4 +103,17 @@ public class HashMap<K, V> implements Map {
     public int size() {
         return size;
     }
+
+    public boolean containsKey(Object key) {
+        Node node = table[hash(key) % tableCapacity];
+
+        while (node != null) {
+            if (node.key == key || node.equals(key)) {
+                return true;
+            }
+            node = node.next;
+        }
+        return false;
+    }
+
 }

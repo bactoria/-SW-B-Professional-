@@ -5,4 +5,5 @@ public interface Map<K, V> {
     V put(Object key, Object value);
     V remove(Object obj);
     int size();
+    boolean containsKey(Object key);
 }
